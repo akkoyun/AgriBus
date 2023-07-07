@@ -1,8 +1,8 @@
 {
-	"name": "<Library_Name>",
+	"name": "AgriBus",
 	"version": "1.0.0",
-	"keywords": "<Library_Keywords>",
-	"description": "<Library_Description>",
+	"keywords": "RS485, Data, Structure, Agriculture, IoT",
+	"description": "RS485 Communication library for agricultural based IoT devices.",
 	"authors":
 	{
 		"name": "Mehmet Gunce Akkoyun",
@@ -11,7 +11,7 @@
 	},
 	"license": "MIT",
 	"frameworks": "arduino",
-	"headers": "<Library_Header_Name>.h",
+	"headers": "AgriBus.h",
 	"platforms":
 	[
 		"atmelavr",
@@ -20,14 +20,14 @@
 	"repository":
 	{
 		"type": "git",
-		"url": "https://github.com/akkoyun/<Repo_Name>.git"
+		"url": "https://github.com/akkoyun/AgriBus.git"
 	},
 	"examples": [
 		{
-			"name": "<Sample_Name>",
-			"base": "examples/<Sample_Folder>",
+			"name": "RS485 Pressure Sensor",
+			"base": "examples/PressureSensor",
 			"files": [
-				"<Sample_Name>.ino"
+				"PressureSensor.ino"
 			]
 		}
 	]

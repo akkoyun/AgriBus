@@ -1,5 +1,5 @@
-#ifndef __Defination__
-#define __Defination__
+#ifndef __AgriBus_Config__
+#define __AgriBus_Config__
 
 // Define LED Variables
 #define		__RED__							0
